@@ -32,7 +32,7 @@ html, body
 
 body
 {
-	background: black url("gradient.svg") no-repeat center center fixed;
+	background: black url("../img/gradient.svg") no-repeat center center fixed;
 	-webkit-background-size: cover; -moz-background-size: cover;
 	-o-background-size: cover; background-size: cover;
 }
@@ -48,7 +48,7 @@ body
 	font-family: "Proxima Nova";
 	font-weight: 400;
 	font-style: normal;
-	src: url("proxima-nova.woff") format("woff");
+	src: url("../font/proxima-nova.woff") format("woff");
 }
 
 @font-face
@@ -56,7 +56,7 @@ body
 	font-family: "Avenir";
 	font-weight: 600;
 	font-style: normal;
-	src: url("avenir-medium.woff") format("woff");
+	src: url("../font/avenir-medium.woff") format("woff");
 }
 
 
