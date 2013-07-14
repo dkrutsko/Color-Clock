@@ -1,0 +1,227 @@
+/*//////////////////////////////////////////////////////////////////////////////
+// -------------------------------------------------------------------------- //
+//                                                                            //
+//                        (C) 2013-2013  David Krutsko                        //
+//                        See LICENSE.md for copyright                        //
+//                                                                            //
+// -------------------------------------------------------------------------- //
+//////////////////////////////////////////////////////////////////////////////*/
+
+/*----------------------------------------------------------------------------*/
+/* Generic                                                                    */
+/*----------------------------------------------------------------------------*/
+
+*
+{
+	padding: 0;
+	margin: 0;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	cursor: default;
+	-webkit-touch-callout: none;
+}
+
+html, body
+{
+	overflow: hidden;
+}
+
+body
+{
+	background: black url("gradient.svg") no-repeat center center fixed;
+	-webkit-background-size: cover; -moz-background-size: cover;
+	-o-background-size: cover; background-size: cover;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/* Fonts                                                                      */
+/*----------------------------------------------------------------------------*/
+
+@font-face
+{
+	font-family: "Proxima Nova";
+	font-weight: 400;
+	font-style: normal;
+	src: url("proxima-nova.woff") format("woff");
+}
+
+@font-face
+{
+	font-family: "Avenir";
+	font-weight: 600;
+	font-style: normal;
+	src: url("avenir-medium.woff") format("woff");
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/* Links                                                                      */
+/*----------------------------------------------------------------------------*/
+
+a,
+a:visited
+{
+	color: rgba(232, 232, 232, 0.7);
+
+	font-family: "Proxima Nova", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active
+{
+	color: rgba(232, 232, 232, 0.9);
+	outline: none;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/* Error                                                                      */
+/*----------------------------------------------------------------------------*/
+
+#error
+{
+	position: absolute;
+	left: 50%; top: 50%;
+
+	width: 740px;
+	height: 100px;
+	display: block;
+	margin: -75px 0px 0px -370px;
+
+	font-family: "Avenir", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.1;
+
+	color: rgba(232, 232, 232, 0.7);
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/* Clock                                                                      */
+/*----------------------------------------------------------------------------*/
+
+#clock
+{
+	display: none;
+	position: absolute;
+	left: 50%; top: 50%;
+
+	width: 740px;
+	height: 220px;
+
+	margin: -135px 0px 0px -370px;
+}
+
+#clock .time,
+#clock .hex
+{
+	position: absolute;
+	top: 0px; left: 0px;
+
+	width: 740px;
+	height: 190px;
+	display: block;
+	
+	font-family: "Avenir", Arial, sans-serif;
+	font-size: 190px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1;
+
+	color: rgba(232, 232, 232, 0.7);
+}
+
+#clock .hex
+{
+	opacity: 0;
+	letter-spacing: 4px;
+}
+
+#clock .margin
+{
+	position: absolute;
+	top: 190px; left: 0px;
+
+	width: 100%;
+	height: 1px;
+	background: rgba(232, 232, 232, 0.7);
+}
+
+#clock .btn-time,
+#clock .btn-hex
+{
+	position: absolute;
+	top: 200px;
+
+	width: 364px;
+	height: 15px;
+	cursor: pointer;
+
+	background: rgba(232, 232, 232, 0.7);
+}
+
+#clock .btn-time
+{
+	left: 0px;
+}
+
+#clock .btn-hex
+{
+	right: 0px;
+	opacity: 0.5;
+}
+
+#clock .btn-time:hover,
+#clock .btn-hex:hover
+{
+	background: rgba(232, 232, 232, 0.9);
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/* Border                                                                     */
+/*----------------------------------------------------------------------------*/
+
+#border
+{
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	left: 6px;
+	bottom: 6px;
+
+	border: 1px solid rgba(232, 232, 232, 0.5);
+}
+
+#border .dave
+{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+#border .jack
+{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
