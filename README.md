@@ -1,6 +1,6 @@
 # Color Clock
 
-This project is an HTML 5 remake of [The Colour Clock](http://thecolourclock.co.uk/), created by [Jack Hughes](http://www.lookatjack.com/). Hours are mapped to the red channels, minutes to green and seconds to blue, with a measure that cycles from black to white over 24 hours. This version offers several design improvements over the original including better readability and cleanliness, mostly due to limitations of the web. The live version can be found [here](http://time.krutsko.net). Try it out on your mobile device today!
+<p align="justify">This project is an HTML 5 remake of <a href="http://thecolourclock.co.uk/">The Colour Clock</a>, created by <a href="http://www.lookatjack.com/">Jack Hughes</a>. Hours are mapped to the red channels, minutes to green and seconds to blue, with a measure that cycles from black to white over 24 hours. This version offers several design improvements over the original including better readability and cleanliness, mostly due to limitations of the web. The live version can be found <a href="http://time.krutsko.net">here</a>. Try it out on your mobile device today!</p>
 
 ### Author
 * Email: <dave@krutsko.net>
